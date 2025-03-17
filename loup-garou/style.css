@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(hsl(0, 0%, 51%), hsl(60, 12%, 44%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border-radius: 10px !important;
+    color: white;
+    margin: 5px !important;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 1.5px 3px black;
+    cursor: pointer;
+}
+
+#resultBUtton{
+    padding: 10px 20px;
+    background-color: #28a745;
+    border-radius: 10px !important;
+    color: white;
+    margin: 5px !important;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 1.5px 3px black;
+    cursor: pointer;
+    width: 73%;
+}
+
+.button1:hover {
+    background-color: #218838;
+}
+
+#card {
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+    margin: 20px 20px 20px 20px auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 97%;
+    max-width: 500px;
+    height: 97%;
+    max-height: 100%;
+    z-index: 5;
+    overflow-y: auto;
+
+}
+
+#closeCard {
+    font-weight: bold;
+    border: none;
+    margin-left: 90% !important;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    padding: 20px;
+}
+
+#roleDisplay{
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.hidden {
+    display: none !important;
+}
+.button2{
+    background-color: rgb(200, 12, 12);
+    color: white;
+    border-radius: 15px;
+}
+#playerRemoveDiv{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+}
+#playerparametre{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#parametre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
